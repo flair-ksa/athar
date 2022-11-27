@@ -39,8 +39,8 @@ function loadContent() {
 
     if (language == "arabic") {
         menu.innerHTML = "المنيو ";
-        link.innerHTML = "لا تنسى تقيمنا ";
-        phone.innerHTML = "للطلب";
+        link.innerHTML = "اصدقاء اثر";
+        phone.innerHTML = "لا تنسى تقيمنا";
     } else if (language == "english") {
         menu.innerHTML = "Menu";
         link.innerHTML = "Athar friends";

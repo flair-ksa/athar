@@ -38,13 +38,13 @@ function loadContent() {
     const language = localStorage.getItem('language') || fallback;
 
     if (language == "arabic") {
-        menu.innerHTML = "المنيو 🥙";
-        link.innerHTML = "لا تنسى تقيمنا &#128205;";
-        phone.innerHTML = "للطلب &#128241;";
+        menu.innerHTML = "المنيو ";
+        link.innerHTML = "لا تنسى تقيمنا ";
+        phone.innerHTML = "للطلب";
     } else if (language == "english") {
-        menu.innerHTML = "🥙 Menu";
-        link.innerHTML = "&#128205; Rate us";
-        phone.innerHTML = "&#128241; Contact Us";
+        menu.innerHTML = "Menu";
+        link.innerHTML = "Athar friends";
+        phone.innerHTML = "Rate Us";
     }
 }
 
